@@ -12,7 +12,7 @@ const HttpError = require("./models/http-error");
 
 app.use(
   cors({
-    origin: ["http://localhost:5000", "https://mernstack-places.web.app/"],
+    origin: ["http://localhost:5000", "https://mernstack-places.web.app"],
     optionsSuccessStatus: 200,
   })
 );
